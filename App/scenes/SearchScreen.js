@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import axios from "axios";
+
 //import { SearchBar } from "react-native-elements";
 import { fieldChange, fetchApi } from "../actions/ApiActions";
 
