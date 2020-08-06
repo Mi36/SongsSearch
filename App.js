@@ -10,9 +10,7 @@ import AppNavigator from "./App/navigators/AppNavigator";
 export default function App() {
   return (
     <Provider store={createStore(reducers, {}, applyMiddleware(ReduxThunk))}>
-      <View style={{ flex: 1, paddingTop: 25 }}>
-        <AppNavigator />
-      </View>
+      <AppNavigator />
     </Provider>
   );
 }
